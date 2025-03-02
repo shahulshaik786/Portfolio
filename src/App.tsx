@@ -167,12 +167,15 @@ function App() {
             <div className="w-48 h-48 md:w-64 md:h-64 relative animate-fadeInLeft">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 animate-pulse-glow"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-indigo-600 p-1 bg-gray-900 z-10 transition-transform duration-500 hover:scale-105">
+   
               
-  <img 
-    src="https://kluniversityin-my.sharepoint.com/:i:/g/personal/2200031100_kluniversity_in/ER6lKS6wIOZMsSl6IBZib4gBXM04laAKwcj3-vuH8WNfXA?e=e0hQFs"
+
+              <img 
+    src="https://i.ibb.co/4DZN7Q4/image3.jpg" 
     alt="Shaik Fyroz Shahul" 
-    className="rounded-full w-full h-full object-cover cursor-pointer"
-  />
+    className="rounded-full w-full h-full object-cover cursor-pointer" 
+/>
+
 
 
               </div>
