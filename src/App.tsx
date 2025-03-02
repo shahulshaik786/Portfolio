@@ -169,7 +169,7 @@ function App() {
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-indigo-600 p-1 bg-gray-900 z-10 transition-transform duration-500 hover:scale-105">
               
   <img 
-    src="/image3.jpeg"
+    src="https://kluniversityin-my.sharepoint.com/:i:/g/personal/2200031100_kluniversity_in/ER6lKS6wIOZMsSl6IBZib4gBXM04laAKwcj3-vuH8WNfXA?e=e0hQFs"
     alt="Shaik Fyroz Shahul" 
     className="rounded-full w-full h-full object-cover cursor-pointer"
   />
