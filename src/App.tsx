@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Github, Linkedin, Mail, Phone, Download, ExternalLink, Menu, X, ChevronUp, Instagram } from 'lucide-react';
+import emailjs from "@emailjs/browser";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -198,13 +199,21 @@ function App() {
                 >
                   <Mail size={18} /> Contact Me
                 </a>
-                <a 
-                  href="Resume.pdf" 
-                  download 
-                  className="btn-secondary"
-                >
-                  <Download size={18} /> Download Resume
-                </a>
+                <a  
+  href="https://kluniversityin-my.sharepoint.com/:b:/g/personal/2200031100_kluniversity_in/EftjTr8LmkJCsmRHKz7oEZcBEbWiGkQeXHYMqzOGXcGVOg?e=crmhyn"  
+  className="btn-secondary"  
+  onClick={(e) => {  
+    e.preventDefault();  
+    window.open(  
+      "https://kluniversityin-my.sharepoint.com/:b:/g/personal/2200031100_kluniversity_in/EftjTr8LmkJCsmRHKz7oEZcBEbWiGkQeXHYMqzOGXcGVOg?e=crmhyn",  
+      "ResumePopup",  
+      "width=800,height=1000,resizable=yes,scrollbars=yes"  
+    );  
+  }}  
+>  
+  <Download size={18} /> View & Download Resume  
+</a>  
+
               </div>
             </div>
           </div>
@@ -447,48 +456,62 @@ function App() {
           <form 
             onSubmit={(e) => {
               e.preventDefault();
-              const name = (e.target as any).name.value;
-              const email = (e.target as any).email.value;
-              const message = (e.target as any).message.value;
-              window.location.href = `mailto:2200031100cseh@gmail.com?subject=Message from ${name}&body=Email: ${email}%0D%0A%0D%0A${message}`;
+              const form = e.target as HTMLFormElement;
+              emailjs
+                .sendForm(
+                  "service_etzxgf9",  // Replace with your EmailJS Service ID
+                  "template_61tlqkr",  // Replace with your EmailJS Template ID
+                  form,
+                  "mpARcKbXPGGlx3a9l"    // Replace with your EmailJS Public Key
+                )
+                .then(
+                  () => {
+                    alert("Message Sent Successfully!");
+                    form.reset();
+                  },
+                  (error: any) => {
+                    console.error("EmailJS Error:", error);
+                    alert("Failed to send message. Try again!");
+                  }
+                );
             }} 
             className="space-y-4"
           >
-            <div className="group">
-              <input 
-                type="text" 
-                name="name"
-                placeholder="Your Name" 
-                className="form-input group-hover:border-indigo-500"
-                required
-              />
-            </div>
-            <div className="group">
-              <input 
-                type="email" 
-                name="email"
-                placeholder="Your Email" 
-                className="form-input group-hover:border-indigo-500"
-                required
-              />
-            </div>
-            <div className="group">
-              <textarea 
-                name="message"
-                placeholder="Your Message" 
-                rows={4}
-                className="form-input group-hover:border-indigo-500"
-                required
-              ></textarea>
-            </div>
-            <button 
-              type="submit" 
-              className="btn-primary w-full justify-center"
-            >
-              Send Message
-            </button>
-          </form>
+           <div className="group">
+          <input 
+            type="text" 
+            name="name"
+            placeholder="Your Name" 
+            className="form-input group-hover:border-indigo-500"
+            required
+          />
         </div>
+        <div className="group">
+          <input 
+            type="email" 
+            name="email"
+            placeholder="Your Email" 
+            className="form-input group-hover:border-indigo-500"
+            required
+          />
+        </div>
+        <div className="group">
+          <textarea 
+            name="message"
+            placeholder="Your Message" 
+            rows={4}
+            className="form-input group-hover:border-indigo-500"
+            required
+          ></textarea>
+        </div>
+        <button 
+          type="submit" 
+          className="btn-primary w-full justify-center"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
       </div>
     </div>
   </div>
