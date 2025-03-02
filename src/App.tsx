@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Github, Linkedin, Mail, Phone, Download, ExternalLink, Menu, X, ChevronUp, Instagram } from 'lucide-react';
 
 function App() {
@@ -167,17 +167,13 @@ function App() {
             <div className="w-48 h-48 md:w-64 md:h-64 relative animate-fadeInLeft">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 animate-pulse-glow"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-indigo-600 p-1 bg-gray-900 z-10 transition-transform duration-500 hover:scale-105">
-              <a 
-  href="https://www.instagram.com/shahul_shaik_786?igsh=MXU5MzBqbXY0azdkZA%3D%3D&utm_source=qr" 
-  target="_blank" 
-  rel="noopener noreferrer"
->
+              
   <img 
-    src="image3.jpeg" 
+    src="/image3.jpeg"
     alt="Shaik Fyroz Shahul" 
     className="rounded-full w-full h-full object-cover cursor-pointer"
   />
-</a>
+
 
               </div>
             </div>
