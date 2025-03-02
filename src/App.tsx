@@ -402,7 +402,7 @@ function App() {
         </div>
         <h3 className="text-xl font-semibold">Oracle Cloud Infrastructure Generative AI Certified Professional</h3>
         <p className="text-gray-400">Issued by Oracle</p>
-        <a href="https://brm-certview.oracle.com/ords/certview/ScoreReport?ssn=OC5155912&registrationID=73625773" target="_blank" rel="noopener noreferrer">View</a>
+        <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=88CBEF8C15C16F59FB1679A01B607B6FB04DBBBE01955C575DE093E132E6B28D" target="_blank" rel="noopener noreferrer">View</a>
       </div>
 
     </div>
