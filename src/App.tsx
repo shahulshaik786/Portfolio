@@ -356,7 +356,7 @@ function App() {
       {/* AWS Certification */}
       <div className="skill-card">
         <div className="flex justify-center">
-          <img src="aws.jpeg" width={200} height={200} alt="AWS Certification" />
+          <img src="https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width={250} height={200} alt="AWS Certification" />
         </div>
         <h3 className="text-xl font-semibold">AWS Certified Cloud Practitioner</h3>
         <p className="text-gray-400">Issued by AWS Organization</p>
@@ -366,7 +366,7 @@ function App() {
       {/* Red Hat Certification */}
       <div className="skill-card">
         <div className="flex justify-center">
-          <img src="redhat.png" width={300} height={200} alt="Red Hat Certification" />
+          <img src="https://images.credly.com/size/680x680/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png" width={300} height={200} alt="Red Hat Certification" />
         </div>
         <h3 className="text-xl font-semibold">Red Hat Certified Enterprise Application Developer</h3>
         <p className="text-gray-400">Issued by Red Hat Academy</p>
@@ -376,7 +376,7 @@ function App() {
       {/* Salesforce Certification */}
       <div className="skill-card">
         <div className="flex justify-center">
-          <img src="salesforce.png" width={225} height={200} alt="Salesforce AI Associate" />
+          <img src="https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqgH&oid=00DF0000000gZsu&lastMod=1693557495000" width={400} height={200} alt="Salesforce AI Associate" />
         </div>
         <h3 className="text-xl font-semibold">Salesforce AI Associate</h3>
         <p className="text-gray-400">Issued by Salesforce</p>
@@ -386,11 +386,11 @@ function App() {
       {/* Oracle Certification */}
       <div className="skill-card">
         <div className="flex justify-center">
-          <img src="oracle.png" width={225} height={200} alt="Oracle Certification" />
+          <img src="https://brm-workforce.oracle.com/pdf/certview/images/OU_Generic_Badge.png" width={225} height={200} alt="Oracle Certification" />
         </div>
         <h3 className="text-xl font-semibold">Oracle Cloud Infrastructure Generative AI Certified Professional</h3>
         <p className="text-gray-400">Issued by Oracle</p>
-        <a href="#" target="_blank" rel="noopener noreferrer">View</a>
+        <a href="https://brm-certview.oracle.com/ords/certview/ScoreReport?ssn=OC5155912&registrationID=73625773" target="_blank" rel="noopener noreferrer">View</a>
       </div>
 
     </div>
