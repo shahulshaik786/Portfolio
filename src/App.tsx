@@ -200,12 +200,12 @@ function App() {
                   <Mail size={18} /> Contact Me
                 </a>
                 <a  
-  href="https://kluniversityin-my.sharepoint.com/:b:/g/personal/2200031100_kluniversity_in/EftjTr8LmkJCsmRHKz7oEZcBEbWiGkQeXHYMqzOGXcGVOg?e=crmhyn"  
+  href="https://kluniversityin-my.sharepoint.com/:b:/g/personal/2200031100_kluniversity_in/ERl56oiJvwlLtrM_ouQNS80B1U7naVi69tyaetSGxxQ1Lw?e=OFgAge"  
   className="btn-secondary"  
   onClick={(e) => {  
     e.preventDefault();  
     window.open(  
-      "https://kluniversityin-my.sharepoint.com/:b:/g/personal/2200031100_kluniversity_in/EftjTr8LmkJCsmRHKz7oEZcBEbWiGkQeXHYMqzOGXcGVOg?e=crmhyn",  
+      "https://kluniversityin-my.sharepoint.com/:b:/g/personal/2200031100_kluniversity_in/ERl56oiJvwlLtrM_ouQNS80B1U7naVi69tyaetSGxxQ1Lw?e=OFgAge",  
       "ResumePopup",  
       "width=800,height=1000,resizable=yes,scrollbars=yes"  
     );  
