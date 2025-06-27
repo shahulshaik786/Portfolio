@@ -295,66 +295,71 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-gray-900">
-        <div className="container mx-auto px-6">
-          <h2 className="section-title text-center mx-auto">
-            Featured Projects
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="project-card group animate-fadeInLeft">
-              <div className="h-48 bg-indigo-900 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80')] bg-cover bg-center opacity-50 group-hover:scale-110 transition-transform duration-700"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
-              </div>
-              <div className="p-6 relative">
-                <div className="absolute top-0 right-0 bg-indigo-600 text-white text-xs font-bold px-3 py-1 transform translate-y-[-50%] rounded-full">Featured</div>
-                <h3 className="text-xl font-bold mb-2 text-white group-hover:text-indigo-400 transition-colors">Learning Management System</h3>
-                <p className="text-gray-300 mb-4">Developed a robust LMS with role-based authentication, content management, and responsive UI using the MERN stack.</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">React</span>
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Node.js</span>
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Express</span>
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">MongoDB</span>
-                </div>
-                <div className="flex gap-4">
-                  <a href="#" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
-                    <Github size={16} /> Code
-                  </a>
-                  <a href="#" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
-                    <ExternalLink size={16} /> Live Demo
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="project-card group animate-fadeInRight">
-              <div className="h-48 bg-indigo-900 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80')] bg-cover bg-center opacity-50 group-hover:scale-110 transition-transform duration-700"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-white group-hover:text-indigo-400 transition-colors">Loan Management System</h3>
-                <p className="text-gray-300 mb-4">Designed a secure loan processing system with advanced search functionality, document management, and approval workflows.</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Spring Boot</span>
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Java</span>
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">PostgreSQL</span>
-                  <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Thymeleaf</span>
-                </div>
-                <div className="flex gap-4">
-                  <a href="https://github.com/shahulshaik786/LMS_Frontend.git" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
-                    <Github size={16} /> Code
-                  </a>
-                  <a href="https://loanmanagementsystemlms.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
-                    <ExternalLink size={16} /> Live Demo
-                  </a>
-                </div>
-              </div>
-            </div>
+<section id="projects" className="py-20 bg-gray-900">
+  <div className="container mx-auto px-6">
+    <h2 className="section-title text-center mx-auto">
+      Featured Projects
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {/* Loan Management System FIRST with Featured */}
+      <div className="project-card group animate-fadeInLeft">
+        <div className="h-48 bg-indigo-900 relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80')] bg-cover bg-center opacity-50 group-hover:scale-110 transition-transform duration-700"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+        </div>
+        <div className="p-6 relative">
+          <div className="absolute top-0 right-0 bg-indigo-600 text-white text-xs font-bold px-3 py-1 transform translate-y-[-50%] rounded-full">
+            Featured
+          </div>
+          <h3 className="text-xl font-bold mb-2 text-white group-hover:text-indigo-400 transition-colors">Loan Management System</h3>
+          <p className="text-gray-300 mb-4">Designed a secure loan processing system with advanced search functionality, document management, and approval workflows.</p>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Spring Boot</span>
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Java</span>
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">PostgreSQL</span>
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Thymeleaf</span>
+          </div>
+          <div className="flex gap-4">
+            <a href="https://github.com/shahulshaik786/LMS_Frontend.git" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+              <Github size={16} /> Code
+            </a>
+            <a href="https://loanmanagementsystemlms.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+              <ExternalLink size={16} /> Live Demo
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+
+      {/* Learning Management System SECOND WITHOUT Featured */}
+      <div className="project-card group animate-fadeInRight">
+        <div className="h-48 bg-indigo-900 relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80')] bg-cover bg-center opacity-50 group-hover:scale-110 transition-transform duration-700"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+        </div>
+        <div className="p-6 relative">
+          {/* Featured badge removed here */}
+          <h3 className="text-xl font-bold mb-2 text-white group-hover:text-indigo-400 transition-colors">Learning Management System</h3>
+          <p className="text-gray-300 mb-4">Developed a robust LMS with role-based authentication, content management, and responsive UI using the MERN stack.</p>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">React</span>
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Node.js</span>
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Express</span>
+            <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">MongoDB</span>
+          </div>
+          <div className="flex gap-4">
+            <a href="#" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+              <Github size={16} /> Code
+            </a>
+            <a href="#" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+              <ExternalLink size={16} /> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
        {/* Certifications Section */}
 <section id="certifications" className="mt-16 flex justify-center">
