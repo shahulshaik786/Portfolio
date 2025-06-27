@@ -277,7 +277,6 @@ function App() {
                 <span className="skill-tag">MongoDB</span>
                 <span className="skill-tag">MySQL</span>
                 <span className="skill-tag">PostgreSQL</span>
-                <span className="skill-tag">Redis</span>
               </div>
             </div>
             
@@ -347,7 +346,7 @@ function App() {
                   <a href="https://github.com/shahulshaik786/LMS_Frontend.git" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
                     <Github size={16} /> Code
                   </a>
-                  <a href="#" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+                  <a href="https://loanmanagementsystemlms.netlify.app/" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
                     <ExternalLink size={16} /> Live Demo
                   </a>
                 </div>
