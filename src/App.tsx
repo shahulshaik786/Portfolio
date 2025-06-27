@@ -343,24 +343,13 @@ function App() {
                   <span className="px-2 py-1 bg-indigo-900/50 text-indigo-300 rounded-full text-xs">Thymeleaf</span>
                 </div>
                 <div className="flex gap-4">
-  <a
-    href="https://github.com/shahulshaik786/LMS_Frontend.git"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1"
-  >
-    <Github size={16} /> Code
-  </a>
-  <a
-    href="https://loanmanagementsystemlms.netlify.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1"
-  >
-    <ExternalLink size={16} /> Live Demo
-  </a>
-</div>
-
+                  <a href="https://github.com/shahulshaik786/LMS_Frontend.git" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+                    <Github size={16} /> Code
+                  </a>
+                  <a href="https://loanmanagementsystemlms.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-all duration-300 hover:translate-x-1">
+                    <ExternalLink size={16} /> Live Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
