@@ -414,7 +414,7 @@ function App() {
         <div className="flex justify-center">
           <img src="https://pathfinder.automationanywhere.com/images/image-training-start.svg" width={225} height={200} alt="RPA Certification" />
         </div>
-        <h3 className="text-xl font-semibold">Automation Anywhere Certified Essentials RPA Professional (Automation 360) - 2023</h3>
+        <h3 className="text-xl font-semibold">Automation Anywhere Certified Essentials RPA Professional (Automation 360)</h3>
         <p className="text-gray-400">Issued by Automation Anywhere</p>
         <a href="https://certificates.automationanywhere.com/7ca60134-c8d1-4592-af2b-baf08a5136ea#acc.wMA2VNyD" target="_blank" rel="noopener noreferrer">View</a>
       </div>
