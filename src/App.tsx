@@ -409,6 +409,26 @@ function App() {
         <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=88CBEF8C15C16F59FB1679A01B607B6FB04DBBBE01955C575DE093E132E6B28D" target="_blank" rel="noopener noreferrer">View</a>
       </div>
 
+      {/* RPA Certification */}
+      <div className="skill-card">
+        <div className="flex justify-center">
+          <img src="https://pathfinder.automationanywhere.com/images/image-training-start.svg" width={225} height={200} alt="RPA Certification" />
+        </div>
+        <h3 className="text-xl font-semibold">Automation Anywhere Certified Essentials RPA Professional (Automation 360) - 2023</h3>
+        <p className="text-gray-400">Issued by Automation Anywhere</p>
+        <a href="https://certificates.automationanywhere.com/7ca60134-c8d1-4592-af2b-baf08a5136ea#acc.wMA2VNyD" target="_blank" rel="noopener noreferrer">View</a>
+      </div>
+
+      {/* ACE Multicloud Network Associate */}
+      <div className="skill-card">
+        <div className="flex justify-center">
+          <img src="https://images.credly.com/size/220x220/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob" width={225} height={200} alt="ACE Multicloud Network Associate" />
+        </div>
+        <h3 className="text-xl font-semibold">Aviatrix Certified Engineer Multicloud Network Associate</h3>
+        <p className="text-gray-400">Issued by Aviatrix</p>
+        <a href="https://www.credly.com/badges/ae3cd2c4-5583-4ce8-92cb-e5f0e4356d21/public_url" target="_blank" rel="noopener noreferrer">View</a>
+      </div>
+
     </div>
   </div>
 </section>
