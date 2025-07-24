@@ -396,7 +396,7 @@ function App() {
         </div>
         <h3 className="text-xl font-semibold">Salesforce AI Associate</h3>
         <p className="text-gray-400">Issued by Salesforce</p>
-        <a href="https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=S3ihqv+eZSwpqtFobdkKQB6BpoUJTQFEMxE7udNZ2IM8YdbwrZ1Gwy8pimo1h50V" target="_blank" rel="noopener noreferrer">View</a>
+        <a href="https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=P6EbO3fjrJ1Q6JKtMY7fU0t7hTFek80aWLvktXMBVVrMByMnJN9fXBObFHx/iX3N" target="_blank" rel="noopener noreferrer">View</a>
       </div>
 
       {/* Oracle Certification */}
