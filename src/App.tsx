@@ -392,7 +392,7 @@ function App() {
       {/* Salesforce Certification */}
       <div className="skill-card">
         <div className="flex justify-center">
-          <img src="https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqgH&oid=00DF0000000gZsu&lastMod=1693557495000" width={400} height={200} alt="Salesforce AI Associate" />
+          <img src="https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqgH&oid=00DF0000000gZsu&lastMod=1693557495000" width={250} height={200} alt="Salesforce AI Associate" />
         </div>
         <h3 className="text-xl font-semibold">Salesforce AI Associate</h3>
         <p className="text-gray-400">Issued by Salesforce</p>
